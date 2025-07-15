@@ -46,10 +46,11 @@ A custom WordPress theme for Pawshop, seamlessly integrated with WooCommerce to 
 **Recommended methods:**
 
 /pawshop-child-theme/
-├── style.css
-└── /woocommerce/
-└── /single-product/
-└── custom-template.php
+
+- ├── style.css
+- └── /woocommerce/
+- └── /single-product/
+- └── custom-template.php
 
 1. **Child Theme** - Required for safe modifications
 2. **CSS Overrides** - Use `Appearance > Customize > Additional CSS`
