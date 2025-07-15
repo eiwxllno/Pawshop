@@ -66,7 +66,7 @@ A custom WordPress theme for Pawshop, seamlessly integrated with WooCommerce to 
 
 For assistance contact:  
 📧 erwinllano@gmail.com
-🐱‍🏍 erwinllano.vercel.app (https://erwinllano.vercel.app/)
+🐱‍🏍 https://erwinllano.vercel.app/
 
 ---
 
