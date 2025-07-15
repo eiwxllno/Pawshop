@@ -54,3 +54,31 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     display: none;
   }
 }
+
+.site-header {
+  .aws-search-field {
+    font-size: 0.9rem;
+    padding-left: 1.4rem;
+    border-radius: 20px !important;
+  }
+}
+
+/* Main Menu*/
+.main-navigation {
+  font-weight: 600;
+
+  .current-menu-item {
+    background-color: rgb(149, 33, 149);
+  }
+
+  a {
+    color: var(--bs-white);
+    padding: 0.6rem 1.4rem;
+  }
+
+  .menu-toggle {
+    background-color: $primary;
+    color: $white;
+    border: none;
+  }
+}
