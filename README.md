@@ -1,6 +1,6 @@
 # Pawshop Custom WooCommerce Theme
 
-![Pawshop Theme Preview](https://example.com/path-to-preview-image.jpg)
+<!-- ![Pawshop Theme Preview](https://example.com/path-to-preview-image.jpg) -->
 
 ## Overview
 
