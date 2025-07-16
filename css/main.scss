@@ -1,4 +1,4 @@
-// Include custom variables default override here
+// Include custom variables default overrides here
 
 $primary: rgb(127, 24, 127);
 $gray: #e6e6e6;
@@ -12,6 +12,33 @@ $theme-colors: (
 $custom-colors: (
   "icon-background": rgba(127, 24, 127, 0.2),
 );
+
+$utilities: (
+  "rounded": (
+    property: border-radius,
+    class: rounded,
+    values: (
+      null: 1rem,
+      circle: 50%,
+    ),
+  ),
+);
+
+// "rounded": (
+//   property: border-radius,
+//   class: rounded,
+//   values: (
+//     null: var(--#{$prefix}border-radius),
+//     0: 0,
+//     1: var(--#{$prefix}border-radius-sm),
+//     2: var(--#{$prefix}border-radius),
+//     3: var(--#{$prefix}border-radius-lg),
+//     4: var(--#{$prefix}border-radius-xl),
+//     5: var(--#{$prefix}border-radius-xxl),
+//     circle: 50%,
+//     pill: var(--#{$prefix}border-radius-pill)
+//   )
+// ),
 
 // Merge maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -80,5 +107,15 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     background-color: $primary;
     color: $white;
     border: none;
+  }
+}
+
+/******************FRONT PAGE************************/
+
+/******************SLIDER************************/
+.carousel {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 9%;
   }
 }
