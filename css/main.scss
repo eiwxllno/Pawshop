@@ -87,6 +87,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   }
 
   a {
+    text-transform: uppercase;
     color: var(--bs-white);
     padding: 0.6rem 1.4rem;
   }
@@ -95,6 +96,12 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     background-color: $primary;
     color: $white;
     border: none;
+  }
+
+  .sub-menu {
+    li {
+      background-color: $primary;
+    }
   }
 }
 
@@ -146,6 +153,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
     a {
       color: $white;
+      text-decoration: none;
+      display: block;
+      padding: 0.3rem 0;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   }
 }

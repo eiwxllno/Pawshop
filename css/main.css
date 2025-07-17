@@ -11710,6 +11710,7 @@ textarea.form-control-lg {
   background-color: rgb(149, 33, 149);
 }
 .main-navigation a {
+  text-transform: uppercase;
   color: var(--bs-white);
   padding: 0.6rem 1.4rem;
 }
@@ -11717,6 +11718,9 @@ textarea.form-control-lg {
   background-color: rgb(127, 24, 127);
   color: #fff;
   border: none;
+}
+.main-navigation .sub-menu li {
+  background-color: rgb(127, 24, 127);
 }
 
 /******************FRONT PAGE************************/
@@ -11759,4 +11763,10 @@ textarea.form-control-lg {
 }
 .site-footer .menu a {
   color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 0.3rem 0;
+}
+.site-footer .menu a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
