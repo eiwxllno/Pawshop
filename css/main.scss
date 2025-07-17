@@ -1,10 +1,12 @@
 // Include custom variables default overrides here
 
 $primary: rgb(127, 24, 127);
+$primary-opacity-8: rgba($primary, 0.8);
 $gray: #e6e6e6;
 
 $theme-colors: (
   "primary": $primary,
+  "primary-opacity-8": $primary-opacity-8,
   "gray": $gray,
 );
 
@@ -23,22 +25,6 @@ $utilities: (
     ),
   ),
 );
-
-// "rounded": (
-//   property: border-radius,
-//   class: rounded,
-//   values: (
-//     null: var(--#{$prefix}border-radius),
-//     0: 0,
-//     1: var(--#{$prefix}border-radius-sm),
-//     2: var(--#{$prefix}border-radius),
-//     3: var(--#{$prefix}border-radius-lg),
-//     4: var(--#{$prefix}border-radius-xl),
-//     5: var(--#{$prefix}border-radius-xxl),
-//     circle: 50%,
-//     pill: var(--#{$prefix}border-radius-pill)
-//   )
-// ),
 
 // Merge maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -117,5 +103,26 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   .carousel-control-prev,
   .carousel-control-next {
     width: 9%;
+  }
+}
+
+/******************CATEGORIES************************/
+
+.categories {
+  background-color: #f9f9f9;
+
+  .categories__col {
+    height: 212px;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    .categories__col {
+      height: 336px;
+    }
   }
 }
