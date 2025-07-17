@@ -1,13 +1,15 @@
 // Include custom variables default overrides here
 
 $primary: rgb(127, 24, 127);
-$primary-opacity-8: rgba($primary, 0.8);
+$primary-opacity-8: rgba(127, 24, 127, 0.8);
 $gray: #e6e6e6;
+$sale: rgba(167, 4, 4, 0.8);
 
 $theme-colors: (
   "primary": $primary,
   "primary-opacity-8": $primary-opacity-8,
   "gray": $gray,
+  "sale": $sale,
 );
 
 // Create your own map
@@ -120,9 +122,17 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     }
   }
 
+  .categories-head-color {
+    background-color: $primary-opacity-8 !important;
+  }
+
   @include media-breakpoint-up(md) {
     .categories__col {
       height: 336px;
     }
   }
+}
+
+.sale-banner {
+  background-color: $sale !important;
 }
