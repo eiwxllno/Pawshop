@@ -42,7 +42,7 @@ get_header();
 	</div>
  </section>		
 
-<section class="container">
+<section class="container popular-products">
 	<h1 class="text-center pt-5">Popular Products</h1>
 	<p class="text-center" >We offer a number of high  quality toy to help keep <br> your pets healthy and spoiled!</p>
 	<div class="pt-5 pb-5">
@@ -87,7 +87,8 @@ get_header();
 					<a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden" >
 						<div class="sale-banner position-absolute top-0 bottom-0 end-0 start-0" style="z-index: 1;"> </div>
 						<img class="position-absolute top-0 bottom-0 end-0 start-0 w-100 h-100 object-fit-cover" src="<?php echo get_template_directory_uri(); ?>/img/categories/special-offers.jpg" alt="..." loading="lazy">
-						<h2 class="position-absolute top-50 start-0 end-0  p-2 mb-0 text-center  text-white" style="z-index: 2;">Special-offers</h2>
+						<h2 class="position-absolute top-50  start-0 end-0 text-center  text-white" style="z-index: 2;">Special-offers</h2>
+						 
 						
 					</a>
 				</div>		
@@ -95,7 +96,7 @@ get_header();
 		</div>
     </section>
 
-	<section class="container pt-5">
+	<section class="container pt-5 special-offers">
 		<h1 class="text-center pt-5">Special Offers</h1>
 		<p class="text-center" >We offer a number of high  quality toy to help keep <br> your pets healthy and spoiled!</p>
 		<div class="pt-5 pb-5">

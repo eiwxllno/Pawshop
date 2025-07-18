@@ -36,7 +36,7 @@
 					</li>
 					<li>
 						<i class="bi bi-envelope rounded-circle"></i>
-						<a href="mailto: @erwinllano@gmail.com" class="text-decoration-none" >erwinllano@gmail.com</a>
+						<a href="mailto: @erwinllano@gmail.com" class="text-decoration-none" >@pawshopsupport.com</a>
 					</li>
 				</ul>
 			</div>
@@ -46,7 +46,7 @@
 						<i class="bi bi-truck rounded-circle"></i> FREE PH Shipping
 					</li>
 					<li>
-						<i class="bi bi-clock-history rounded-circle"></i> 30-day Moneyback Guarante
+						<i class="bi bi-clock-history rounded-circle"></i> 30-day Money-back Guarante
 					</li>
 					<li>
 						<i class="bi bi-person rounded-circle"></i> 24/7 Customer support
