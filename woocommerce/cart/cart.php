@@ -193,7 +193,6 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 <?php do_action( 'woocommerce_before_cart_collaterals' ); ?>
 
-<h1>Custom cart</h1>
 
 <div class="cart-collaterals">
 	<?php
