@@ -27,7 +27,7 @@
 			</div>
 		</div>
 	 </div>
-	 <div class="container pt-4">
+	 <div class="container pt-2">
 <div class="row d-flex align-items-center">
 	<div class="col">
 		<p>&copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?> develop by <a href="https://erwinllano.vercel.app/" target="_blank">Erwin Llano</a></p>
