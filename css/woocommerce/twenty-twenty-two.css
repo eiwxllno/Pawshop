@@ -90,18 +90,18 @@
  * WooCommerce CSS Variables
  */
 :root {
-  --woocommerce: rgb(127, 24, 127);
+  --woocommerce: rgb(179, 175, 84);
   --wc-green: #7ad03a;
   --wc-red: #a00;
   --wc-orange: #ffba00;
   --wc-blue: #2ea2cc;
-  --wc-primary: rgb(127, 24, 127);
-  --wc-primary-text: #e5b1e5;
-  --wc-secondary: rgb(127, 24, 127);
+  --wc-primary: rgb(179, 175, 84);
+  --wc-primary-text: white;
+  --wc-secondary: rgb(179, 175, 84);
   --wc-secondary-text: #ffffff;
-  --wc-highlight: #1e3209;
-  --wc-highligh-text: #eaf4df;
-  --wc-content-bg: rgba(127, 24, 127, 0.8);
+  --wc-highlight: rgba(255, 186, 0, 0.8);
+  --wc-highligh-text: rgba(255, 255, 255, 0.8);
+  --wc-content-bg: rgb(179, 175, 84);
   --wc-subtext: #767676;
   --wc-form-border-color: rgba(32, 7, 7, 0.8);
   --wc-form-border-radius: 4px;
@@ -396,13 +396,13 @@
 }
 .woocommerce #respond input#submit,
 .woocommerce input.button {
-  background-color: var(--wp--preset--color--foreground, rgb(127, 24, 127));
-  color: var(--wp--preset--color--background, #e5b1e5);
+  background-color: var(--wp--preset--color--foreground, rgb(179, 175, 84));
+  color: var(--wp--preset--color--background, white);
 }
 .woocommerce #respond input#submit:hover,
 .woocommerce input.button:hover {
-  background-color: var(--wp--preset--color--foreground, rgb(127, 24, 127));
-  color: var(--wp--preset--color--background, #e5b1e5);
+  background-color: var(--wp--preset--color--foreground, rgb(179, 175, 84));
+  color: var(--wp--preset--color--background, white);
 }
 .woocommerce #respond input#submit.disabled, .woocommerce #respond input#submit:disabled, .woocommerce #respond input#submit:disabled[disabled], .woocommerce #respond input#submit.disabled:hover, .woocommerce #respond input#submit:disabled:hover, .woocommerce #respond input#submit:disabled[disabled]:hover,
 .woocommerce input.button.disabled,
@@ -411,8 +411,8 @@
 .woocommerce input.button.disabled:hover,
 .woocommerce input.button:disabled:hover,
 .woocommerce input.button:disabled[disabled]:hover {
-  background-color: var(--wp--preset--color--foreground, rgb(127, 24, 127));
-  color: var(--wp--preset--color--background, #e5b1e5);
+  background-color: var(--wp--preset--color--foreground, rgb(179, 175, 84));
+  color: var(--wp--preset--color--background, white);
 }
 .woocommerce #respond input#submit.alt,
 .woocommerce a.button.alt,
@@ -461,8 +461,8 @@
 }
 .woocommerce button.button,
 .woocommerce a.button {
-  background-color: var(--wp--preset--color--foreground, rgb(127, 24, 127));
-  color: var(--wp--preset--color--background, #e5b1e5);
+  background-color: var(--wp--preset--color--foreground, rgb(179, 175, 84));
+  color: var(--wp--preset--color--background, white);
 }
 .woocommerce button.button.disabled, .woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled], .woocommerce button.button.disabled:hover, .woocommerce button.button:disabled:hover, .woocommerce button.button:disabled[disabled]:hover,
 .woocommerce a.button.disabled,
@@ -471,8 +471,8 @@
 .woocommerce a.button.disabled:hover,
 .woocommerce a.button:disabled:hover,
 .woocommerce a.button:disabled[disabled]:hover {
-  background-color: var(--wp--preset--color--foreground, rgb(127, 24, 127));
-  color: var(--wp--preset--color--background, #e5b1e5);
+  background-color: var(--wp--preset--color--foreground, rgb(179, 175, 84));
+  color: var(--wp--preset--color--background, white);
 }
 .woocommerce .woocommerce-result-count {
   margin-top: 0;
@@ -798,8 +798,8 @@ ul.wc-tabs li:first-child {
   margin-left: 1em;
 }
 ul.wc-tabs li.active {
-  background: var(--wp--preset--color--background, rgba(127, 24, 127, 0.8));
-  border-bottom-color: var(--wp--preset--color--background, rgba(127, 24, 127, 0.8));
+  background: var(--wp--preset--color--background, rgb(179, 175, 84));
+  border-bottom-color: var(--wp--preset--color--background, rgb(179, 175, 84));
   box-shadow: 0 1px var(--wp--preset--color--background);
 }
 ul.wc-tabs li a {

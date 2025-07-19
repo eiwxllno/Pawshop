@@ -22,18 +22,18 @@
  * WooCommerce CSS Variables
  */
 :root {
-  --woocommerce: rgb(127, 24, 127);
+  --woocommerce: rgb(179, 175, 84);
   --wc-green: #7ad03a;
   --wc-red: #a00;
   --wc-orange: #ffba00;
   --wc-blue: #2ea2cc;
-  --wc-primary: rgb(127, 24, 127);
-  --wc-primary-text: #e5b1e5;
-  --wc-secondary: rgb(127, 24, 127);
+  --wc-primary: rgb(179, 175, 84);
+  --wc-primary-text: white;
+  --wc-secondary: rgb(179, 175, 84);
   --wc-secondary-text: #ffffff;
-  --wc-highlight: #1e3209;
-  --wc-highligh-text: #eaf4df;
-  --wc-content-bg: rgba(127, 24, 127, 0.8);
+  --wc-highlight: rgba(255, 186, 0, 0.8);
+  --wc-highligh-text: rgba(255, 255, 255, 0.8);
+  --wc-content-bg: rgb(179, 175, 84);
   --wc-subtext: #767676;
   --wc-form-border-color: rgba(32, 7, 7, 0.8);
   --wc-form-border-radius: 4px;
@@ -115,10 +115,10 @@
   margin-bottom: var(--wp--style--block-gap);
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active::before {
-  box-shadow: 2px 2px 0 var(--wp--preset--color--background, rgba(127, 24, 127, 0.8));
+  box-shadow: 2px 2px 0 var(--wp--preset--color--background, rgb(179, 175, 84));
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active::after {
-  box-shadow: -2px 2px 0 var(--wp--preset--color--background, rgba(127, 24, 127, 0.8));
+  box-shadow: -2px 2px 0 var(--wp--preset--color--background, rgb(179, 175, 84));
 }
 .woocommerce div.product form.cart div.quantity {
   float: none;
@@ -155,8 +155,8 @@
   text-decoration: none;
 }
 .woocommerce span.onsale {
-  background-color: var(--wp--preset--color--foreground, #1e3209);
-  color: var(--wp--preset--color--background, #eaf4df);
+  background-color: var(--wp--preset--color--foreground, rgba(255, 186, 0, 0.8));
+  color: var(--wp--preset--color--background, rgba(255, 255, 255, 0.8));
 }
 .woocommerce table.variations {
   display: block;
@@ -407,15 +407,15 @@ a.added_to_cart {
 */
 p.demo_store,
 .woocommerce-store-notice {
-  background: var(--wp--preset--color--foreground, rgb(127, 24, 127));
+  background: var(--wp--preset--color--foreground, rgb(179, 175, 84));
   bottom: 0;
-  color: var(--wp--preset--color--background, #e5b1e5);
+  color: var(--wp--preset--color--background, white);
   position: fixed;
   top: auto !important;
 }
 p.demo_store a,
 .woocommerce-store-notice a {
-  color: var(--wp--preset--color--background, #e5b1e5);
+  color: var(--wp--preset--color--background, white);
 }
 
 /**

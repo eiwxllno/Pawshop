@@ -4,18 +4,18 @@
  * WooCommerce CSS Variables
  */
 :root {
-  --woocommerce: rgb(127, 24, 127);
+  --woocommerce: rgb(179, 175, 84);
   --wc-green: #7ad03a;
   --wc-red: #a00;
   --wc-orange: #ffba00;
   --wc-blue: #2ea2cc;
-  --wc-primary: rgb(127, 24, 127);
-  --wc-primary-text: #e5b1e5;
-  --wc-secondary: rgb(127, 24, 127);
+  --wc-primary: rgb(179, 175, 84);
+  --wc-primary-text: white;
+  --wc-secondary: rgb(179, 175, 84);
   --wc-secondary-text: #ffffff;
-  --wc-highlight: #1e3209;
-  --wc-highligh-text: #eaf4df;
-  --wc-content-bg: rgba(127, 24, 127, 0.8);
+  --wc-highlight: rgba(255, 186, 0, 0.8);
+  --wc-highligh-text: rgba(255, 255, 255, 0.8);
+  --wc-content-bg: rgb(179, 175, 84);
   --wc-subtext: #767676;
   --wc-form-border-color: rgba(32, 7, 7, 0.8);
   --wc-form-border-radius: 4px;
@@ -92,10 +92,10 @@ body {
   color: #666;
 }
 .wc-setup-content a {
-  color: rgb(127, 24, 127);
+  color: rgb(179, 175, 84);
 }
 .wc-setup-content a:hover, .wc-setup-content a:focus {
-  color: black;
+  color: #292812;
 }
 .wc-setup-content .form-table th {
   width: 35%;
@@ -309,15 +309,15 @@ body {
 }
 .wc-setup-content .wc-setup-next-steps ul .setup-product a.button-primary {
   color: #fff;
-  background-color: rgb(127, 24, 127);
-  border-color: rgb(127, 24, 127);
+  background-color: rgb(179, 175, 84);
+  border-color: rgb(179, 175, 84);
   box-shadow: 0 0 0;
   text-shadow: none;
 }
 .wc-setup-content .wc-setup-next-steps ul .setup-product a.button-primary:hover, .wc-setup-content .wc-setup-next-steps ul .setup-product a.button-primary:focus, .wc-setup-content .wc-setup-next-steps ul .setup-product a.button-primary:active {
   color: #fff;
-  background: #941c94;
-  border-color: #941c94;
+  background: #bbb766;
+  border-color: #bbb766;
   box-shadow: none;
 }
 .wc-setup-content .wc-setup-next-steps ul li a::before {
@@ -402,8 +402,8 @@ body {
   outline: rgb(59, 153, 252) auto 5px;
 }
 .wc-setup-content .checkbox input[type=checkbox]:checked + label::before {
-  background: rgb(127, 24, 127);
-  border-color: rgb(127, 24, 127);
+  background: rgb(179, 175, 84);
+  border-color: rgb(179, 175, 84);
 }
 
 .woocommerce-tracker {
@@ -457,7 +457,7 @@ body {
   line-height: 1.4;
 }
 .wc-setup-steps li a {
-  color: rgb(127, 24, 127);
+  color: rgb(179, 175, 84);
   text-decoration: none;
   padding: 1.5em;
   margin: -1.5em;
@@ -482,20 +482,20 @@ body {
   background: #fff;
 }
 .wc-setup-steps li.active {
-  border-color: rgb(127, 24, 127);
-  color: rgb(127, 24, 127);
+  border-color: rgb(179, 175, 84);
+  color: rgb(179, 175, 84);
   font-weight: 700;
 }
 .wc-setup-steps li.active::before {
-  border-color: rgb(127, 24, 127);
+  border-color: rgb(179, 175, 84);
 }
 .wc-setup-steps li.done {
-  border-color: rgb(127, 24, 127);
-  color: rgb(127, 24, 127);
+  border-color: rgb(179, 175, 84);
+  color: rgb(179, 175, 84);
 }
 .wc-setup-steps li.done::before {
-  border-color: rgb(127, 24, 127);
-  background: rgb(127, 24, 127);
+  border-color: rgb(179, 175, 84);
+  background: rgb(179, 175, 84);
 }
 
 .wc-setup .wc-setup-actions {
@@ -506,8 +506,8 @@ body {
 
 .wc-setup .wc-setup-actions .button-primary,
 .woocommerce-tracker .button-primary {
-  background-color: rgb(127, 24, 127);
-  border-color: rgb(127, 24, 127);
+  background-color: rgb(179, 175, 84);
+  border-color: rgb(179, 175, 84);
   box-shadow: 0 0 0;
   text-shadow: none;
   margin: 0;
@@ -517,8 +517,8 @@ body {
 .woocommerce-tracker .button-primary:hover,
 .woocommerce-tracker .button-primary:focus,
 .woocommerce-tracker .button-primary:active {
-  background: #941c94;
-  border-color: #941c94;
+  background: #bbb766;
+  border-color: #bbb766;
   box-shadow: 0 0 0;
 }
 
@@ -704,8 +704,8 @@ body {
 .wc-wizard-services-list-toggle .wc-wizard-service-toggle {
   height: 16px;
   width: 32px;
-  border: 2px solid rgb(127, 24, 127);
-  background-color: rgb(127, 24, 127);
+  border: 2px solid rgb(179, 175, 84);
+  background-color: rgb(179, 175, 84);
   display: inline-block;
   text-indent: -9999px;
   border-radius: 10em;
@@ -994,10 +994,10 @@ h3.jetpack-reasons {
 }
 
 .plugin-install-source {
-  background: rgba(127, 24, 127, 0.15);
+  background: rgba(179, 175, 84, 0.15);
 }
 .plugin-install-source:not(.wc-wizard-service-item) {
-  box-shadow: 0 0 0 10px rgba(127, 24, 127, 0.15);
+  box-shadow: 0 0 0 10px rgba(179, 175, 84, 0.15);
 }
 
 .location-prompt {
@@ -1280,7 +1280,7 @@ p.jetpack-terms {
   margin-left: 4px;
 }
 .wc-setup-content .recommended-item .recommended-item-icon.recommended-item-icon-wc_admin {
-  background-color: rgb(127, 24, 127);
+  background-color: rgb(179, 175, 84);
   padding: 0.5em;
   height: 2em;
 }

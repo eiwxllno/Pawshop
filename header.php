@@ -67,7 +67,8 @@
 			<div class="col-sm-12 col-md-5">
 			<?php aws_get_search_form( true ); ?>
 			</div>
-		<div class="col cart d-flex justify-content-center justify-content-md-end align items-center pt-2">
+			<!-- cart content -->
+		<div class="col cart text-white d-flex justify-content-center justify-content-md-end align items-center pt-2">
 		<a href="<?php echo wc_get_cart_url(); ?>">	<i class="bi bi-bag-dash p-2"></i></a>
 		<a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – <?php echo WC()->cart->get_cart_total(); ?></a>
 		</div>

@@ -2,18 +2,18 @@
  * WooCommerce CSS Variables
  */
 :root {
-  --woocommerce: rgb(127, 24, 127);
+  --woocommerce: rgb(179, 175, 84);
   --wc-green: #7ad03a;
   --wc-red: #a00;
   --wc-orange: #ffba00;
   --wc-blue: #2ea2cc;
-  --wc-primary: rgb(127, 24, 127);
-  --wc-primary-text: #e5b1e5;
-  --wc-secondary: rgb(127, 24, 127);
+  --wc-primary: rgb(179, 175, 84);
+  --wc-primary-text: white;
+  --wc-secondary: rgb(179, 175, 84);
   --wc-secondary-text: #ffffff;
-  --wc-highlight: #1e3209;
-  --wc-highligh-text: #eaf4df;
-  --wc-content-bg: rgba(127, 24, 127, 0.8);
+  --wc-highlight: rgba(255, 186, 0, 0.8);
+  --wc-highligh-text: rgba(255, 255, 255, 0.8);
+  --wc-content-bg: rgb(179, 175, 84);
   --wc-subtext: #767676;
   --wc-form-border-color: rgba(32, 7, 7, 0.8);
   --wc-form-border-radius: 4px;
@@ -63,10 +63,10 @@ body {
   padding: 0;
 }
 .wc-auth-content a {
-  color: rgb(127, 24, 127);
+  color: rgb(179, 175, 84);
 }
 .wc-auth-content a:hover, .wc-auth-content a:focus {
-  color: black;
+  color: #292812;
 }
 .wc-auth-content .wc-auth-login label {
   color: #999;
@@ -137,8 +137,8 @@ body {
   background: #fcfcfc;
 }
 .wc-auth .wc-auth-actions .button-primary {
-  background: rgb(127, 24, 127);
-  border-color: rgb(127, 24, 127);
+  background: rgb(179, 175, 84);
+  border-color: rgb(179, 175, 84);
   box-shadow: 0 0 0;
   color: #fff;
   float: right;
@@ -146,7 +146,7 @@ body {
   text-shadow: none;
 }
 .wc-auth .wc-auth-actions .button-primary:hover, .wc-auth .wc-auth-actions .button-primary:focus {
-  background: #941c94;
+  background: #bbb766;
   color: #fff;
 }
 .wc-auth .wc-auth-actions .wc-auth-approve {

@@ -538,13 +538,13 @@ a {
 }
 
 a:visited {
-  color: #800080;
+  color: #b3af54;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #191970;
+  color: #a8a341;
 }
 
 a:focus {
@@ -799,6 +799,8 @@ textarea {
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
   display: inline-block;
+  width: 200px;
+  height: 85px;
 }
 
 /* Captions

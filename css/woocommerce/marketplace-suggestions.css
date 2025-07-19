@@ -65,18 +65,18 @@
  * WooCommerce CSS Variables
  */
 :root {
-  --woocommerce: rgb(127, 24, 127);
+  --woocommerce: rgb(179, 175, 84);
   --wc-green: #7ad03a;
   --wc-red: #a00;
   --wc-orange: #ffba00;
   --wc-blue: #2ea2cc;
-  --wc-primary: rgb(127, 24, 127);
-  --wc-primary-text: #e5b1e5;
-  --wc-secondary: rgb(127, 24, 127);
+  --wc-primary: rgb(179, 175, 84);
+  --wc-primary-text: white;
+  --wc-secondary: rgb(179, 175, 84);
   --wc-secondary-text: #ffffff;
-  --wc-highlight: #1e3209;
-  --wc-highligh-text: #eaf4df;
-  --wc-content-bg: rgba(127, 24, 127, 0.8);
+  --wc-highlight: rgba(255, 186, 0, 0.8);
+  --wc-highligh-text: rgba(255, 255, 255, 0.8);
+  --wc-content-bg: rgb(179, 175, 84);
   --wc-subtext: #767676;
   --wc-form-border-color: rgba(32, 7, 7, 0.8);
   --wc-form-border-radius: 4px;

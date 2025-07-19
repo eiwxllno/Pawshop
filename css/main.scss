@@ -1,9 +1,10 @@
 // Include custom variables default overrides here
 
-$primary: rgb(127, 24, 127);
-$primary-opacity-8: rgba(127, 24, 127, 0.8);
+$primary: #b3af54;
+$primary-opacity-8: rgba(179, 175, 84, 0.8);
 $gray: #e6e6e6;
-$sale: rgba(167, 4, 4, 0.8);
+$black: #201f1f;
+$sale: rgb(255, 187, 0, 0.8);
 $heading-font-family: "Nunito", sans-serif;
 $heading-font-weight: 800;
 $font-family-base: "Poppins", sans-serif;
@@ -13,11 +14,12 @@ $theme-colors: (
   "primary-opacity-8": $primary-opacity-8,
   "gray": $gray,
   "sale": $sale,
+  "black": $black,
 );
 
 // Create your own map
 $custom-colors: (
-  "icon-background": rgba(127, 24, 127, 0.2),
+  "icon-background": rgba(255, 186, 0, 0.2),
 );
 
 $utilities: (
@@ -86,7 +88,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   font-weight: 600;
 
   .current-menu-item {
-    background-color: rgb(149, 33, 149);
+    background-color: #a8a341;
   }
 
   a {
@@ -147,6 +149,41 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   background-color: $sale !important;
 }
 
+/******************Hover effect to categories************************/
+.categories {
+  &__col {
+    a {
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: 1;
+        border-radius: inherit;
+      }
+    }
+
+    img {
+      transition: all 0.3s ease;
+    }
+
+    &:hover {
+      a::before {
+        opacity: 1;
+      }
+
+      img {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
 /******************Footer************************/
 .site-footer {
   .menu {
@@ -166,6 +203,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     }
   }
 }
+
+/******************Products************************/
 
 .popular-products,
 .special-offers,
